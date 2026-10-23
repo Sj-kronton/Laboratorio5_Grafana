@@ -118,5 +118,6 @@ capturas del dashboard, la alerta disparada y la notificación recibida.
 ## Notas y limitaciones
 
 - La toma de datos presenta huecos debido al apagado de la VM para ahorrar créditos de Azure.
+- Hay 2 carpetas de evidencias, "Evidencias" presenta las imágenes, mientras que "evidencias" son los logs de los diferentes procesos en la VM.
 - Mosquitto usa `allow_anonymous true`: es aceptable en el laboratorio porque el puerto 1883 no se publica fuera de la red de Docker, pero no es una configuración de producción.
 - No ejecutar `docker compose down -v`: borra los volúmenes y con ellos la toma de datos.
