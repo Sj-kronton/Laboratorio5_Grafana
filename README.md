@@ -1,5 +1,8 @@
 # Laboratorio 5: Visualización + reglas / alertas
 
+## Juan Alejandro Sierra Rincon — U00178520
+## María Herrera — U00173188
+
 IoT + Cloud + Sistemas Distribuidos, Universidad Autónoma de Bucaramanga.
 Escenario: sensor de monitoreo de paciente (`patient01`) con tres variables:
 temperatura (°C), frecuencia cardíaca (bpm) y SpO2 (%).
