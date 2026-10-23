@@ -1,0 +1,5 @@
+publisher-1  | {'device': 'patient01', 'temperature': 36.51, 'heart_rate': 63.7, 'spo2': 95.6, 'ts': 1792770437}
+publisher-1  | {'device': 'patient01', 'temperature': 36.38, 'heart_rate': 66.1, 'spo2': 96.0, 'ts': 1792770447}
+publisher-1  | {'device': 'patient01', 'temperature': 36.37, 'heart_rate': 68.6, 'spo2': 96.3, 'ts': 1792770457}
+publisher-1  | {'device': 'patient01', 'temperature': 36.39, 'heart_rate': 64.3, 'spo2': 97.6, 'ts': 1792770467}
+publisher-1  | {'device': 'patient01', 'temperature': 36.48, 'heart_rate': 70.3, 'spo2': 96.0, 'ts': 1792770477}

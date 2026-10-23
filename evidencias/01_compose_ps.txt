@@ -1,0 +1,5 @@
+NAME               IMAGE                 COMMAND                  SERVICE     CREATED          STATUS          PORTS
+lab5-influxdb-1    influxdb:2.7          "/entrypoint.sh infl…"   influxdb    13 minutes ago   Up 13 minutes   8086/tcp
+lab5-mosquitto-1   eclipse-mosquitto:2   "/docker-entrypoint.…"   mosquitto   13 minutes ago   Up 13 minutes   1883/tcp
+lab5-publisher-1   lab5-publisher        "python -u publisher…"   publisher   13 minutes ago   Up 13 minutes   
+lab5-telegraf-1    telegraf:1.30         "/entrypoint.sh tele…"   telegraf    13 minutes ago   Up 13 minutes   8092/udp, 8125/udp, 8094/tcp
