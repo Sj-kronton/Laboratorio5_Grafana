@@ -38,6 +38,22 @@ services:
     environment:
       MQTT_HOST: mosquitto
 
+  grafana:
+    image: grafana/grafana-oss:11.2.0
+    restart: always
+    depends_on: [influxdb]
+    ports: ["127.0.0.1:3000:3000"]
+    environment:
+      GF_SECURITY_ADMIN_PASSWORD: ${GF_ADMIN_PASSWORD}
+      WEBHOOK_URL: ${WEBHOOK_URL}
+      INFLUX_TOKEN: ${INFLUX_TOKEN}
+      INFLUX_ORG: ${INFLUX_ORG}
+      INFLUX_BUCKET: ${INFLUX_BUCKET}
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./grafana/provisioning:/etc/grafana/provisioning
+
 volumes:
   mosquitto_data:
   influx_data:
+  grafana_data:

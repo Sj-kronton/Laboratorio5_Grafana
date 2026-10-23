@@ -1,0 +1,10 @@
+apiVersion: 1
+contactPoints:
+  - orgId: 1
+    name: webhook-lab5
+    receivers:
+      - uid: fg24tkaucjn5tf
+        type: webhook
+        settings:
+          url: ${WEBHOOK_URL}
+        disableResolveMessage: false
